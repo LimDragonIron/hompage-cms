@@ -17,7 +17,7 @@ export function Home() {
             description="메인 화면의 이미지와 영상을 등록, 수정, 삭제할 수 있습니다."
             accentColor="from-gray-200 to-gray-300"
             textColor="text-gray-900"
-            onClick={() => navigate("/main-title")}
+            onClick={() => navigate("/heroes")}
           />
           {/* 2. 프로모션 배너 관리 */}
           <HomeCard

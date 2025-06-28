@@ -29,7 +29,7 @@ export function Sidebar({ mobileOpen, onClose }: { mobileOpen?: boolean; onClose
         홈
       </NavLink>
       <NavLink
-        to="/main-title"
+        to="/heroes"
         className={({ isActive }) =>
           "rounded px-3 py-2 font-medium transition flex items-center gap-2 " +
           (isActive
