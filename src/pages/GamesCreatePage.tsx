@@ -22,7 +22,7 @@ export function GamesCreatePage() {
   const {
     title, setTitle,
     content, setContent,
-    fileId, setFileId,
+    fileId,
     imagePreview,
     currentImageUrl,
     uploading,
